@@ -1,0 +1,23 @@
+<h1 class="text-center">Angular 2 WebSockets example</h1>
+<div class="row">
+	<div class="col-lg-12" style="padding: 0px 0px 0px 0px;border:2px solid orange">
+		<!-- Column with Server emitting random data every second over websocket -->
+		<h2>Canvas for drawing</h2>
+		<chess-diagram  [width]="1000" [height]="500"></chess-diagram>
+	</div>
+	<div class="col-md-6">
+		<!-- Column with small Chat application using websockets -->
+		<create-message></create-message>
+		<hr/>
+		<chat-component></chat-component>
+	</div>
+
+	<div class="col-md-6">
+		<!-- Column with Server emitting random data every second over websocket -->
+		<h2>Random data from websocket</h2>
+		<data-component></data-component>
+	</div>
+
+	
+</div>
+
